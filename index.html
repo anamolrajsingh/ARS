@@ -9,6 +9,7 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" href="https://i.ibb.co/svj13HD/android-chrome-512x512.png" type="image/svg+xml">
+
         <style>
       body {
          color: black;
@@ -16,74 +17,44 @@
          text-align: center;
          justify-content: center;
       }
-      .dark-class {
+      .dark-theme {
          color: white;
-         background-color: rgb(12, 10, 10);
+         background-color: rgb(26, 20, 20);
+      }
+      button {
+         width: 13rem;
+         height: 2rem;
+         font-size: 1.5rem;
+         background-color: aqua;
+         border: none;
+         border-radius: 12px;
       }
       p {
          font-size: 1.2rem;
       }
-      .toggleButton {
-         width: 5rem;
-         height: 2rem;
-         position: relative;
-         display: inline-block;
-      }
-      .toggleButton input {
-         opacity: 0;
-      }
-      .roundButton {
-         background-color: black;
-          top: 0;
-         left: 0;
-         position: absolute;
-         right: 0;
-         bottom: 0;
-         cursor: pointer;
-      }
-      .roundButton:before {
-         left: 0;
-         bottom: 0;
-         position: absolute;
-         content: "";
-         background-color: grey;
-         transition: 1s;
-         height: 2rem;
-         width: 2rem;
-      }
-      input:checked+.roundButton {
-         background-color: white;
-      }
-      input:checked+.roundButton:before {
-         transform: translateX(3rem);
-      }
-      .roundButton.circle {
-         border-radius: 2rem;
-      }
-      .roundButton.circle:before {
-         border-radius: 50%;
-      }
-   </style>
-   <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-   Integrity = "sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-   crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
-
-<body>
-   
-   <label class = "toggleButton">
-      <input type = "checkbox" id = "toggle">
-      <div class = "roundButton circle" ></div>
-   </label>
+        </style>
+         <body>
+             <button onclick = "changeMode()" id = "button"> Dark Mode </button>
    <script>
-      // If the input checkbox is checked, activate dark mode by adding dark-class to the body
-      $('#toggle').change(() => {
-         if ($('#toggle').is(":checked")) {
-            $("body").addClass("dark-class");
+      function changeMode() {
+         var body = document.body;
+         
+         // toggle the theme
+         body.classList.toggle("dark-theme");
+         let button = document.getElementById('button');
+         
+         // change the button text
+         if (button.innerHTML == "Dark Mode") {
+            button.innerHTML = "Normal Mode";
          } else {
-            $("body").removeClass("dark-class")
+            button.innerHTML = "Dark Mode"
          }
-      })
+      }
    </script>
+</body>
+      
+        
+   
     </head>
     <body>
         <!--body-->
