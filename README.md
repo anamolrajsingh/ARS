@@ -1,6 +1,8 @@
-<h2 align="left">Hi 👋! It's me Anamol Raj Singh</h2>
+<p align="center">
+  <img src="/public/favicon.svg" width="50" alt="Logo" />
+</p>
+<h1 align="center">Personal portfolio</h1>
 
-<img align="Left" height="150" src="[https://i.imgflip.com/65efzo.gif](https://avatars.githubusercontent.com/u/155214218?s=400&u=482a0047ce03fe6e7e4b0b9bbf9d017c111f2467&v=4)https://avatars.githubusercontent.com/u/155214218?s=400&u=482a0047ce03fe6e7e4b0b9bbf9d017c111f2467&v=4"  />
+[![Site preview](/public/site-preview.png)]([https://hamishw.com](https://anamolrajsingh.github.io/ars/))
 
-###
-
+My design portfolio to showcase a few projects. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
