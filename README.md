@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Personal portfolio</h1>
 
-<p>Anamol Raj Singh (Nepali: अनमोल राज सिंह)a dedicated student & learner who has an insatiable curiosity and passion for knowledge. Born with an intrinsic interest in studying books, always eager to explore new subjects and ideas.</p>
+<p>A dedicated student & learner who has an insatiable curiosity and passion for knowledge. Born with an intrinsic interest in studying books, always eager to explore new subjects and ideas.</p>
 
-         <a class="button" href="https://anamolrajsingh.github.io/ars/" target="_blank">
+<a class='button' href='https://anamolrajsingh.github.io/ars/'>Personal portfolio</a>
             
